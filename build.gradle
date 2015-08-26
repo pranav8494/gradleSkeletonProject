@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile([
+		  'commons-collections:commons-collections:3.2',
+			'joda-time:joda-time:2.6'
+		])
+			
+    testCompile([ 'junit:junit:4.+'])
+}
