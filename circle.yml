@@ -1,7 +1,10 @@
 machine:
  java:
   version: oraclejdk7
-
+ 
+ before_install:
+  - chmod +x gradlew
+  
 dependencies:
  override:
   - ./gradlew compileTestJava
