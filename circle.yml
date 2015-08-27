@@ -1,10 +1,10 @@
 machine:
-  java:
-    version: oraclejdk7
-	
+ java:
+  version: oraclejdk7
+
 dependencies:
-  override:
-    - ./gradlew compileTestJava
-  cache_directories:
-    - "~/.gradle"  
-    - "build"
+ override:
+  - ./gradlew compileTestJava
+ cache_directories:
+  - "~/.gradle"
+  - "build"
