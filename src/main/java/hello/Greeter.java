@@ -1,7 +1,18 @@
 package hello;
 
+import org.joda.time.DateTime;
+
 public class Greeter {
-  public String sayHello() {
-    return "Hello world!";
-  }
+	
+	private DateTime currentTime = new DateTime();
+	
+	public String sayHello() {
+		
+		return "Hello world!";
+	}
+	
+	public DateTime getGreeterTime(){
+		
+		return this.currentTime;
+	}
 }
