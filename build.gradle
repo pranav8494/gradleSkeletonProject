@@ -1,3 +1,5 @@
+description = "Sample porject to itnroduce Git, Gradle and CircleCI"
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
@@ -7,6 +9,14 @@ task wrapper(type: Wrapper) {
 
 repositories {
     mavenCentral()
+	//maven {
+    //  name "RemoteAsr"
+    //  url env['ARTIFACTS_URL']
+    //  credentials {
+    //    username env['ARTIFACTS_USER']
+    //    password env['ARTIFACTS_PASSWORD']
+    //  }
+    //}
 }
 
 dependencies {
