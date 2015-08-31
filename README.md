@@ -7,9 +7,14 @@ Repository with collection of sample ready to use project using tools like Gradl
  * An IDE prefeably Eclipse IDE ([here](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR2/eclipse-java-luna-SR2-win32-x86_64.zip)).
 
 # What to do with this?
-Fork the project, and go to git bash. Run following command: 
+Fork the project into your github account and then clone the porject locally:
 ```
-gradlew task
+git clone <<github url>>
+```
+
+, and go to git bash. Run following command: 
+```
+$./gradlew task
 ```
 
 Follow the [tutorial](tutorial.md)
