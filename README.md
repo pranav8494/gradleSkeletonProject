@@ -12,3 +12,4 @@ Fork the project, and go to git bash. Run following command:
 gradlew task
 ```
 
+Follow the [tutorial](tutorial.md)
