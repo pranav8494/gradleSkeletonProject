@@ -1,4 +1,4 @@
-###Applying Java Plugin
+### Applying Java Plugin
 * Add following line in build.gradle on top.
 	```apply plugin: java```
 * run build task
@@ -11,7 +11,7 @@ Once the Java plugin is applied to the project, try listing the tasks:
 
 You'll notice more tasks in the list under section "build tasks", "documentation", "build setup", etc. These came just by applying the java plugin.
 
-###Creating an Eclipse project.
+### Creating an Eclipse project.
 To create the eclipse specific descriptor files, you can simply apply the "eclipse" plugin.
 
 * Add following line in build.gradle.
@@ -26,7 +26,7 @@ Do the same to list the tasks after applying the plugin and see what new tasks a
 
 Refer to [Eclipse plugin details](https://docs.gradle.org/current/userguide/eclipse_plugin.html) for more details.
 
-###  Project Import
+### Project Import
 * Open eclipse.
 * Open  the git repository view (Window -> Show view -> Other -> Git Repositories).
 * Add the repository using "Add an existing local repository".
