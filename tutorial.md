@@ -36,9 +36,11 @@ You'll notice the project is all set for eclipse.
 
 ### Getting dependencies
 * To add external dependencies, it's required to specify from which repositories gradle is supposed to get the dependencies. You can do this we following code:
-```repositories {
+```
+repositories {
     mavenCentral()
-}```
+} 
+```
 * Once the repository is defined, the next step is to add dependencies for compile and test.
 ```
 dependencies {
